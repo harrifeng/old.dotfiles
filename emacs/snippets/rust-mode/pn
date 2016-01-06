@@ -1,4 +1,0 @@
-# contributor: Harri Feng <harrifeng@gmail.com>
-# name: println!
-# --
-println!("$1", $2)
