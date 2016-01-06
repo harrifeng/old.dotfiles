@@ -2,3 +2,7 @@
 	email = haoran.feng@sap.com
 	name = Haoran Feng
 
+[http]
+	proxy = http://proxy.sin.sap.corp:8080
+[https]
+	proxy = http://proxy.sin.sap.corp:8080
