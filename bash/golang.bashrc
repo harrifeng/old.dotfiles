@@ -14,5 +14,5 @@ export http_proxy=http://proxy.sin.sap.corp:8080
 export https_proxy=http://proxy.sin.sap.corp:8080
 
 # golang docker path setting------------------------------->
-export GOPATH=/go
+export GOPATH=~/go
 export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
