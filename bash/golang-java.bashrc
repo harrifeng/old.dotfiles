@@ -2,7 +2,6 @@
 export EDITOR=emacs
 export TERM=xterm-256color
 export PATH=/usr/local/bin:$PATH
-export PATH=~/node_modules/tern/bin:$PATH
 
 # git show branch------------------------------------------>
 parse_git_branch() {
