@@ -2,6 +2,7 @@
 export EDITOR=emacs
 export TERM=xterm-256color
 export PATH=/usr/local/bin:$PATH
+export PATH=~/node_modules/tern/bin:$PATH
 
 # git show branch------------------------------------------>
 parse_git_branch() {
@@ -20,3 +21,9 @@ export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
 # java path setting Mac only------------------------------->
 # export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+export npm_config_proxy=http://proxy.sin.sap.corp:8080
+export npm_config_https_proxy=http://proxy.sin.sap.corp:8080
+
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
