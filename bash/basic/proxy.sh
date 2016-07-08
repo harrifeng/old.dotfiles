@@ -10,5 +10,8 @@ parse_git_branch() {
 export PS1="\u@ \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 # proxy setting-------------------------------------------->
-export http_proxy=http://proxy.sin.sap.corp:8080
-export https_proxy=http://proxy.sin.sap.corp:8080
+export http_proxy=http://10.0.75.1:7777
+export https_proxy=http://10.0.75.1:7777
+
+# alias setting-------------------------------------------->
+alias emacs='emacs -nw'
