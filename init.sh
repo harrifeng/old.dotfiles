@@ -4,6 +4,14 @@ rm -rf ~/.bashrc
 ln -s $PWD/bash/basic/proxy.sh ~/.bashrc
 source ~/.bashrc
 
+# Add rbenv
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+# Add gemrc
+rm -rf ~/.gemrc
+ln -s $PWD/bash/ruby/gemrc ~/.gemrc
+
 # Add git config
 rm -rf ~/.gitconfig
 ln -s $PWD/git/gitconfig ~/.gitconfig
