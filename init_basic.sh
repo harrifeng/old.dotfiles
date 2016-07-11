@@ -1,7 +1,7 @@
 echo $PWD
 # Add bashrc
 rm -rf ~/.bashrc
-ln -s $PWD/bash/basic_ruby/proxy.sh ~/.bashrc
+ln -s $PWD/bash/basic/noproxy.sh ~/.bashrc
 source ~/.bashrc
 
 # Add git config
