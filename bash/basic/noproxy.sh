@@ -2,7 +2,7 @@
 export EDITOR=emacs
 export TERM=xterm-256color
 export PATH=/usr/local/bin:$PATH
-export LANG=en_US
+export LANG=en_US.UTF-8
 
 # git show branch------------------------------------------>
 parse_git_branch() {
