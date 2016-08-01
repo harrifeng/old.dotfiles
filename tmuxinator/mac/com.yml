@@ -31,7 +31,12 @@ windows:
   - Editor:
       panes:
         - emacs -nw
+  - Shell:
+      root: ~/
+      panes:
+        -
   - Daemon:
       root: ~/
       panes:
+        - caffeinate -d
         - ~/.cow/cow
