@@ -15,3 +15,4 @@ eval "$(rbenv init -)"
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+export SECRET_KEY_BASE='dev-key-not-used-in-production'
